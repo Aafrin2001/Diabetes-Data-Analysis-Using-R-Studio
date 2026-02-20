@@ -1,9 +1,9 @@
-Project Title: Diabetes Prediction & Risk Factor Analysis
+**Project Title**: Diabetes Prediction & Risk Factor Analysis
 
-Overview:
+**Overview**:
 This project utilizes a Kaggle-sourced dataset containing medical and demographic information—such as BMI, HbA1c levels, and blood glucose—to predict the likelihood of diabetes in patients. The analysis focuses on comparative modeling to identify the most accurate predictors for medical diagnosis.
 
-Key Features:
+**Key Features**:
 
 Data Preprocessing: Handled class imbalance (reducing the dataset from ~100k to ~17k observations for parity), converted categorical variables into numeric dummies, and performed extensive data cleaning.
 
@@ -13,5 +13,5 @@ Machine Learning Modeling: Developed and compared multiple classification models
 
 Performance Metrics: Evaluated models based on Accuracy and the Kappa metric, with a specific focus on high recall to minimize false negatives in medical screening.
 
-Results:
+**Results**:
 The Random Forest model achieved the highest performance with 91% accuracy and a Kappa score of 0.82. Feature importance analysis identified HbA1c level and blood glucose level as the most significant indicators of diabetes
